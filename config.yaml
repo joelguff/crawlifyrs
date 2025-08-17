@@ -1,0 +1,15 @@
+# Crawlify Configuration for Elixir Lang Website
+db_path: "crawlify.db"
+export_path: "crawled_data.jsonl"
+
+http:
+  connect_timeout: "30s"
+  request_timeout: "60s"
+  pool_max_idle_per_host: 10
+  proxy: null
+
+nlp:
+  enabled: true
+  keywords:
+    - "odin"
+    - "Code"
