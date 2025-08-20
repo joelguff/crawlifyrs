@@ -11,8 +11,8 @@ Features:
 1. Do this:
 
 ```bash
-git clone https://github.com/joelguff/crawlify.git
-cd crawlify
+git clone https://github.com/joelguff/crawlifyrs.git
+cd crawlifyrs
 cargo build --release
 ```
 
